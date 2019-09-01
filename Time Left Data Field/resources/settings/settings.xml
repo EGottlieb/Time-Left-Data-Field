@@ -1,0 +1,5 @@
+<settings>
+<setting propertyKey="@Properties.startingTimeSetting" title="@Strings.startingTimeSetting">
+	<settingConfig type="numeric" min="1" max="9999999" required="true"/>
+</setting>
+</settings>

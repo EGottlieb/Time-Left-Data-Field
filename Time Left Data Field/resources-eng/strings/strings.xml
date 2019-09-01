@@ -1,0 +1,5 @@
+<strings>
+    <string id="AppName">Time Left Data Field</string>
+    <string id="startingTimeSetting">Starting Time (seconds)</string>
+    <string id="timeLeftLabel">Time Remaining</string>
+</strings>
