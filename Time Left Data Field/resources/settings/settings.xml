@@ -2,4 +2,7 @@
 <setting propertyKey="@Properties.startingTimeSetting" title="@Strings.startingTimeSetting">
 	<settingConfig type="numeric" min="1" max="9999999" required="true"/>
 </setting>
+<setting propertyKey="@Properties.endMessage" title="@Strings.endMessage">
+	<settingConfig type="alphaNumeric" required="true"/>
+</setting>
 </settings>

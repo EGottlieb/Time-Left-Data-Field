@@ -1,5 +1,6 @@
 <strings>
     <string id="AppName">Time Left Data Field</string>
     <string id="startingTimeSetting">Starting Time (seconds)</string>
-    <string id="timeLeftLabel">Time Remaining</string>
+    <string id="timeLeftLabel">Time Left</string>
+    <string id="endMessage">Text when timer reaches 0</string>
 </strings>

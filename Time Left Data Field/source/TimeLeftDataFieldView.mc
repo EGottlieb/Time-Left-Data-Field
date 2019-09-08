@@ -3,10 +3,12 @@
 
 using Toybox.WatchUi;
 
+
 class TimeLeftDataFieldView extends WatchUi.SimpleDataField {
 
  	const DEFAULT_STARTING_TIME = 3600; // seconds
     var startingTime = readKeyInt(Application.getApp(),"startingTimeSetting",DEFAULT_STARTING_TIME) * 1000; // start time on countdown timer
+	var timeUpMessage = Application.getApp().getProperty("endMessage");
 	
 	var timeLeft = 0;	 // time left in milliseconds
 	var hrs = 0;		 // hours left
@@ -28,14 +30,14 @@ class TimeLeftDataFieldView extends WatchUi.SimpleDataField {
     function compute(info) {
  		
 		if (info.elapsedTime != null) {
-				timeLeft = startingTime - info.elapsedTime;
+			timeLeft = startingTime - info.elapsedTime;
 			
 		} else {  // info.elapsedTime is null
 			
 			timeLeft = 0;
 		}
 
-		if (timeLeft >= 0) {
+		if (timeLeft > 0) {
 		
 			secs = (timeLeft / 1000) % 60;
 			mins = (timeLeft / (1000*60)) % 60;
@@ -45,7 +47,7 @@ class TimeLeftDataFieldView extends WatchUi.SimpleDataField {
 
 		} else {
 			
-			timeLeftString = "LAST LAP!";
+			timeLeftString = timeUpMessage;
 			
 		}
 
