@@ -30,7 +30,7 @@ class TimeLeftDataFieldView extends WatchUi.SimpleDataField {
     function compute(info) {
  		
 		if (info.elapsedTime != null) {
-			timeLeft = startingTime - info.elapsedTime;
+			timeLeft = startingTime - info.timerTime;
 			
 		} else {  // info.elapsedTime is null
 			
