@@ -5,4 +5,7 @@
 <setting propertyKey="@Properties.endMessage" title="@Strings.endMessage">
 	<settingConfig type="alphaNumeric" required="true"/>
 </setting>
+<setting propertyKey="@Properties.pauseSetting" title="@Strings.pauseSetting">
+	<settingConfig type="boolean"/>
+</setting>
 </settings>

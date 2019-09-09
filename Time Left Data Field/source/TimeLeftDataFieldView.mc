@@ -9,6 +9,7 @@ class TimeLeftDataFieldView extends WatchUi.SimpleDataField {
  	const DEFAULT_STARTING_TIME = 3600; // seconds
     var startingTime = readKeyInt(Application.getApp(),"startingTimeSetting",DEFAULT_STARTING_TIME) * 1000; // start time on countdown timer
 	var timeUpMessage = Application.getApp().getProperty("endMessage");
+	var pauseWithTimer = Application.getApp().getProperty("pauseSetting");
 	
 	var timeLeft = 0;	 // time left in milliseconds
 	var hrs = 0;		 // hours left
@@ -30,7 +31,11 @@ class TimeLeftDataFieldView extends WatchUi.SimpleDataField {
     function compute(info) {
  		
 		if (info.elapsedTime != null) {
-			timeLeft = startingTime - info.timerTime;
+			if (pauseWithTimer == true) { 					// pause countdown when timer is paused
+				timeLeft = startingTime - info.timerTime;
+			} else {  										// continue countdown even if timer is paused
+				timeLeft = startingTime - info.elapsedTime;
+			}
 			
 		} else {  // info.elapsedTime is null
 			

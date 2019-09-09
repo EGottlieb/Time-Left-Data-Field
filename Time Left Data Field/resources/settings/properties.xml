@@ -1,4 +1,5 @@
 <properties>
 <property id="startingTimeSetting" type="number">3600</property>
 <property id="endMessage" type="string">Time's up!</property>
+<property id="pauseSetting" type="boolean">true</property>
 </properties>
