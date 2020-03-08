@@ -90,15 +90,15 @@
 <annotations/>
 <dataEntryOffsetMappings>
 <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
-<dataEntry offset="166" parentId="globals" symbolId="TimeLeftDataFieldView" type="class"/>
-<dataEntry offset="309" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry offset="388" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry offset="427" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry offset="458" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry offset="489" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry offset="520" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry offset="551" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry offset="622" parentId="globals" symbolId="TimeLeftDataFieldApp" type="class"/>
+<dataEntry offset="150" parentId="globals" symbolId="TimeLeftDataFieldView" type="class"/>
+<dataEntry offset="293" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="372" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="411" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="442" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="473" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="504" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="535" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="606" parentId="globals" symbolId="TimeLeftDataFieldApp" type="class"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" name="initialize" parent="TimeLeftDataFieldApp">
