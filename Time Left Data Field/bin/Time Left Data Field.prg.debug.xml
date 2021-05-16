@@ -56,12 +56,12 @@
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry field="true" id="28" symbol="AppName"/>
 <entry id="8" module="true" symbol="globals/Rez/Strings"/>
-<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="8388772" module="true" symbol="Fonts"/>
 <entry id="10" object="true" symbol="TimeLeftDataFieldApp"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
 <entry id="2" module="true" symbol="globals/Rez"/>
 <entry field="true" id="17" symbol="mins"/>
-<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8388771" module="true" symbol="Drawables"/>
 <entry id="9" object="true" symbol="TimeLeftDataFieldView"/>
 <entry id="23" module="true" symbol="Menus"/>
 <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
@@ -69,13 +69,14 @@
 <entry field="true" id="29" symbol="startingTimeSetting"/>
 <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
 <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8388769" module="true" symbol="Rez"/>
 <entry field="true" id="13" symbol="timeUpMessage"/>
-<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="8390088" module="true" symbol="JsonData"/>
 <entry field="true" id="24" symbol="LauncherIcon"/>
 <entry id="8388610" symbol="statics"/>
 <entry id="8389350" module="true" symbol="globals"/>
-<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8388770" module="true" symbol="Strings"/>
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry id="8389279" method="true" symbol="onStart"/>
 <entry field="true" id="19" symbol="timeLeftString"/>
@@ -101,18 +102,25 @@
 <entry arg="true" endPc="268436062" name="state" stackId="1" startPc="268436057"/>
 <entry arg="true" endPc="268436067" name="state" stackId="1" startPc="268436062"/>
 </localVars>
-<annotations/>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="endMessage"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="pauseSetting"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="timeLeftLabel"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="startingTimeSetting"/>
+</annotations>
 <dataEntryOffsetMappings>
-<dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
-<dataEntry offset="150" parentId="globals" symbolId="TimeLeftDataFieldView" type="class"/>
-<dataEntry offset="293" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry offset="372" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry offset="411" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry offset="442" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry offset="473" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry offset="504" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry offset="535" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry offset="606" parentId="globals" symbolId="TimeLeftDataFieldApp" type="class"/>
+<dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/TimeLeftDataFieldView" offset="150" parentId="globals" symbolId="TimeLeftDataFieldView" type="class"/>
+<dataEntry label="globals/Rez" offset="293" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/Rez/Drawables" offset="372" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="411" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="442" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="473" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="504" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="535" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/TimeLeftDataFieldApp" offset="606" parentId="globals" symbolId="TimeLeftDataFieldApp" type="class"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" name="initialize" parent="TimeLeftDataFieldView">
