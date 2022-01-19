@@ -2,45 +2,57 @@
 <debugInfo>
 <manifest filename="C:\Users\Eric\git\Time-Left-Data-Field\Time Left Data Field\manifest.xml"/>
 <pcToLineNum>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="3" lineNum="20" pc="268435456" symbol="initialize"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="3" lineNum="21" pc="268435460" symbol="initialize"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="3" lineNum="22" pc="268435478" symbol="initialize"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="4" lineNum="31" pc="268435522" symbol="compute"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="4" lineNum="33" pc="268435526" symbol="compute"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="4" lineNum="34" pc="268435539" symbol="compute"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="4" lineNum="35" pc="268435553" symbol="compute"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="4" lineNum="37" pc="268435581" symbol="compute"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="4" lineNum="42" pc="268435609" symbol="compute"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="4" lineNum="45" pc="268435622" symbol="compute"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="4" lineNum="47" pc="268435639" symbol="compute"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="4" lineNum="48" pc="268435667" symbol="compute"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="4" lineNum="49" pc="268435695" symbol="compute"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="4" lineNum="51" pc="268435723" symbol="compute"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="4" lineNum="55" pc="268435852" symbol="compute"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="4" lineNum="59" pc="268435868" symbol="compute"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="5" lineNum="62" pc="268435878" symbol="readKeyInt"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="5" lineNum="63" pc="268435882" symbol="readKeyInt"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="5" lineNum="64" pc="268435897" symbol="readKeyInt"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="5" lineNum="65" pc="268435922" symbol="readKeyInt"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="5" lineNum="66" pc="268435929" symbol="readKeyInt"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="5" lineNum="68" pc="268435945" symbol="readKeyInt"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="5" lineNum="71" pc="268435952" symbol="readKeyInt"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="6" lineNum="74" pc="268435956" symbol="readKeyFloat"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="6" lineNum="75" pc="268435960" symbol="readKeyFloat"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="6" lineNum="76" pc="268435975" symbol="readKeyFloat"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="6" lineNum="77" pc="268436000" symbol="readKeyFloat"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="6" lineNum="78" pc="268436007" symbol="readKeyFloat"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="6" lineNum="80" pc="268436023" symbol="readKeyFloat"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="6" lineNum="83" pc="268436030" symbol="readKeyFloat"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="6" lineNum="10" pc="268436183" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="6" lineNum="11" pc="268436222" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="6" lineNum="12" pc="268436261" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldApp.mc" id="8" lineNum="5" pc="268436034" symbol="initialize"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldApp.mc" id="8" lineNum="6" pc="268436038" symbol="initialize"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldApp.mc" id="9" lineNum="10" pc="268436057" symbol="onStart"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldApp.mc" id="10" lineNum="14" pc="268436062" symbol="onStop"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldApp.mc" id="11" lineNum="18" pc="268436067" symbol="getInitialView"/>
-<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldApp.mc" id="11" lineNum="19" pc="268436071" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="1" lineNum="20" parent="globals/TimeLeftDataFieldView" pc="268435456" symbol="initialize"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="1" lineNum="21" parent="globals/TimeLeftDataFieldView" pc="268435460" symbol="initialize"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="1" lineNum="22" parent="globals/TimeLeftDataFieldView" pc="268435478" symbol="initialize"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="2" lineNum="31" parent="globals/TimeLeftDataFieldView" pc="268435522" symbol="compute"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="2" lineNum="33" parent="globals/TimeLeftDataFieldView" pc="268435526" symbol="compute"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="2" lineNum="34" parent="globals/TimeLeftDataFieldView" pc="268435539" symbol="compute"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="2" lineNum="35" parent="globals/TimeLeftDataFieldView" pc="268435553" symbol="compute"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="2" lineNum="37" parent="globals/TimeLeftDataFieldView" pc="268435581" symbol="compute"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="2" lineNum="42" parent="globals/TimeLeftDataFieldView" pc="268435609" symbol="compute"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="2" lineNum="45" parent="globals/TimeLeftDataFieldView" pc="268435622" symbol="compute"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="2" lineNum="47" parent="globals/TimeLeftDataFieldView" pc="268435639" symbol="compute"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="2" lineNum="48" parent="globals/TimeLeftDataFieldView" pc="268435667" symbol="compute"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="2" lineNum="49" parent="globals/TimeLeftDataFieldView" pc="268435695" symbol="compute"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="2" lineNum="51" parent="globals/TimeLeftDataFieldView" pc="268435723" symbol="compute"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="2" lineNum="55" parent="globals/TimeLeftDataFieldView" pc="268435852" symbol="compute"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="2" lineNum="59" parent="globals/TimeLeftDataFieldView" pc="268435868" symbol="compute"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="3" lineNum="62" parent="globals/TimeLeftDataFieldView" pc="268435878" symbol="readKeyInt"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="3" lineNum="63" parent="globals/TimeLeftDataFieldView" pc="268435882" symbol="readKeyInt"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="3" lineNum="64" parent="globals/TimeLeftDataFieldView" pc="268435897" symbol="readKeyInt"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="3" lineNum="65" parent="globals/TimeLeftDataFieldView" pc="268435922" symbol="readKeyInt"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="3" lineNum="66" parent="globals/TimeLeftDataFieldView" pc="268435929" symbol="readKeyInt"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="3" lineNum="68" parent="globals/TimeLeftDataFieldView" pc="268435945" symbol="readKeyInt"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="3" lineNum="71" parent="globals/TimeLeftDataFieldView" pc="268435952" symbol="readKeyInt"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="4" lineNum="74" parent="globals/TimeLeftDataFieldView" pc="268435956" symbol="readKeyFloat"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="4" lineNum="75" parent="globals/TimeLeftDataFieldView" pc="268435960" symbol="readKeyFloat"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="4" lineNum="76" parent="globals/TimeLeftDataFieldView" pc="268435975" symbol="readKeyFloat"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="4" lineNum="77" parent="globals/TimeLeftDataFieldView" pc="268436000" symbol="readKeyFloat"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="4" lineNum="78" parent="globals/TimeLeftDataFieldView" pc="268436007" symbol="readKeyFloat"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="4" lineNum="80" parent="globals/TimeLeftDataFieldView" pc="268436023" symbol="readKeyFloat"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="4" lineNum="83" parent="globals/TimeLeftDataFieldView" pc="268436030" symbol="readKeyFloat"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="5" lineNum="7" parent="globals/TimeLeftDataFieldView" pc="268436110" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="5" lineNum="10" parent="globals/TimeLeftDataFieldView" pc="268436128" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="5" lineNum="11" parent="globals/TimeLeftDataFieldView" pc="268436183" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="5" lineNum="12" parent="globals/TimeLeftDataFieldView" pc="268436222" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldView.mc" id="5" lineNum="7" parent="globals/TimeLeftDataFieldView" pc="268436110" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldApp.mc" id="7" lineNum="5" parent="globals/TimeLeftDataFieldApp" pc="268436034" symbol="initialize"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldApp.mc" id="7" lineNum="6" parent="globals/TimeLeftDataFieldApp" pc="268436038" symbol="initialize"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldApp.mc" id="8" lineNum="10" parent="globals/TimeLeftDataFieldApp" pc="268436057" symbol="onStart"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldApp.mc" id="9" lineNum="14" parent="globals/TimeLeftDataFieldApp" pc="268436062" symbol="onStop"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldApp.mc" id="10" lineNum="18" parent="globals/TimeLeftDataFieldApp" pc="268436067" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldApp.mc" id="10" lineNum="19" parent="globals/TimeLeftDataFieldApp" pc="268436071" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldApp.mc" id="11" lineNum="3" parent="globals/TimeLeftDataFieldApp" pc="268436292" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Eric\\git\\Time-Left-Data-Field\\Time Left Data Field\\source\\TimeLeftDataFieldApp.mc" id="11" lineNum="3" parent="globals/TimeLeftDataFieldApp" pc="268436292" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="13" lineNum="2" parent="globals/Rez/Drawables" pc="268436286" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="14" lineNum="6" parent="globals/Rez/Fonts" pc="268436288" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="15" lineNum="8" parent="globals/Rez/JsonData" pc="268436290" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="16" lineNum="10" parent="globals/Rez/Layouts" pc="268436289" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="17" lineNum="12" parent="globals/Rez/Menus" pc="268436287" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="18" lineNum="14" parent="globals/Rez/Strings" pc="268436291" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="19" lineNum="1" parent="globals/Rez" pc="268436262" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="19" lineNum="1" parent="globals/Rez" pc="268436262" symbol="&lt;init&gt;"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
@@ -56,12 +68,12 @@
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry field="true" id="28" symbol="AppName"/>
 <entry id="8" module="true" symbol="globals/Rez/Strings"/>
-<entry id="8388772" module="true" symbol="Fonts"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
 <entry id="10" object="true" symbol="TimeLeftDataFieldApp"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
 <entry id="2" module="true" symbol="globals/Rez"/>
 <entry field="true" id="17" symbol="mins"/>
-<entry id="8388771" module="true" symbol="Drawables"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="9" object="true" symbol="TimeLeftDataFieldView"/>
 <entry id="23" module="true" symbol="Menus"/>
 <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
@@ -69,14 +81,14 @@
 <entry field="true" id="29" symbol="startingTimeSetting"/>
 <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
 <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-<entry id="8388769" module="true" symbol="Rez"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry field="true" id="13" symbol="timeUpMessage"/>
 <entry id="8388640" module="true" symbol="Lang"/>
-<entry id="8390088" module="true" symbol="JsonData"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
 <entry field="true" id="24" symbol="LauncherIcon"/>
 <entry id="8388610" symbol="statics"/>
 <entry id="8389350" module="true" symbol="globals"/>
-<entry id="8388770" module="true" symbol="Strings"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry id="8389279" method="true" symbol="onStart"/>
 <entry field="true" id="19" symbol="timeLeftString"/>
@@ -90,17 +102,17 @@
 <entry field="true" id="18" symbol="secs"/>
 </symbolTable>
 <localVars>
-<entry arg="true" endPc="268435878" name="info" stackId="1" startPc="268435522"/>
-<entry endPc="268435955" name="value" stackId="4" startPc="268435882"/>
-<entry arg="true" endPc="268435956" name="thisDefault" stackId="3" startPc="268435878"/>
-<entry arg="true" endPc="268435956" name="key" stackId="2" startPc="268435878"/>
-<entry arg="true" endPc="268435956" name="myApp" stackId="1" startPc="268435878"/>
-<entry endPc="268436033" name="value" stackId="4" startPc="268435960"/>
-<entry arg="true" endPc="268436034" name="thisDefault" stackId="3" startPc="268435956"/>
-<entry arg="true" endPc="268436034" name="key" stackId="2" startPc="268435956"/>
-<entry arg="true" endPc="268436034" name="myApp" stackId="1" startPc="268435956"/>
-<entry arg="true" endPc="268436062" name="state" stackId="1" startPc="268436057"/>
-<entry arg="true" endPc="268436067" name="state" stackId="1" startPc="268436062"/>
+<entry arg="true" endPc="268435877" name="info" stackId="1" startPc="268435522"/>
+<entry endPc="268435954" name="value" stackId="4" startPc="268435882"/>
+<entry arg="true" endPc="268435955" name="thisDefault" stackId="3" startPc="268435878"/>
+<entry arg="true" endPc="268435955" name="key" stackId="2" startPc="268435878"/>
+<entry arg="true" endPc="268435955" name="myApp" stackId="1" startPc="268435878"/>
+<entry endPc="268436032" name="value" stackId="4" startPc="268435960"/>
+<entry arg="true" endPc="268436033" name="thisDefault" stackId="3" startPc="268435956"/>
+<entry arg="true" endPc="268436033" name="key" stackId="2" startPc="268435956"/>
+<entry arg="true" endPc="268436033" name="myApp" stackId="1" startPc="268435956"/>
+<entry arg="true" endPc="268436061" name="state" stackId="1" startPc="268436057"/>
+<entry arg="true" endPc="268436066" name="state" stackId="1" startPc="268436062"/>
 </localVars>
 <annotations>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -123,37 +135,64 @@
 <dataEntry label="globals/TimeLeftDataFieldApp" offset="606" parentId="globals" symbolId="TimeLeftDataFieldApp" type="class"/>
 </dataEntryOffsetMappings>
 <functions>
-<functionEntry accessMode="public" name="initialize" parent="TimeLeftDataFieldView">
+<functionEntry accessMode="public" endPc="268435521" name="initialize" parent="TimeLeftDataFieldView" startPc="268435456">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="compute" parent="TimeLeftDataFieldView">
+<functionEntry accessMode="public" endPc="268435877" name="compute" parent="TimeLeftDataFieldView" startPc="268435522">
 <param id="info"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="readKeyInt" parent="TimeLeftDataFieldView">
+<functionEntry accessMode="public" endPc="268435955" name="readKeyInt" parent="TimeLeftDataFieldView" startPc="268435878">
 <param id="myApp"/>
 <param id="key"/>
 <param id="thisDefault"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="readKeyFloat" parent="TimeLeftDataFieldView">
+<functionEntry accessMode="public" endPc="268436033" name="readKeyFloat" parent="TimeLeftDataFieldView" startPc="268435956">
 <param id="myApp"/>
 <param id="key"/>
 <param id="thisDefault"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="TimeLeftDataFieldApp">
+<functionEntry accessMode="protected" endPc="268436261" name="&lt;init&gt;" parent="TimeLeftDataFieldView" startPc="268436110">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onStart" parent="TimeLeftDataFieldApp">
+<functionEntry accessMode="public" endPc="268436056" name="initialize" parent="TimeLeftDataFieldApp" startPc="268436034">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436061" name="onStart" parent="TimeLeftDataFieldApp" startPc="268436057">
 <param id="state"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onStop" parent="TimeLeftDataFieldApp">
+<functionEntry accessMode="public" endPc="268436066" name="onStop" parent="TimeLeftDataFieldApp" startPc="268436062">
 <param id="state"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="getInitialView" parent="TimeLeftDataFieldApp">
+<functionEntry accessMode="public" endPc="268436108" name="getInitialView" parent="TimeLeftDataFieldApp" startPc="268436067">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268436310" name="&lt;init&gt;" parent="TimeLeftDataFieldApp" startPc="268436292">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268436286" name="&lt;init&gt;" parent="Drawables" startPc="268436286">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268436288" name="&lt;init&gt;" parent="Fonts" startPc="268436288">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268436290" name="&lt;init&gt;" parent="JsonData" startPc="268436290">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268436289" name="&lt;init&gt;" parent="Layouts" startPc="268436289">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268436287" name="&lt;init&gt;" parent="Menus" startPc="268436287">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268436291" name="&lt;init&gt;" parent="Strings" startPc="268436291">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268436285" name="&lt;init&gt;" parent="Rez" startPc="268436262">
 <documentation/>
 </functionEntry>
 </functions>
