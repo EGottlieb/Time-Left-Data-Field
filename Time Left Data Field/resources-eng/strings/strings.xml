@@ -4,4 +4,5 @@
     <string id="timeLeftLabel">Time Left</string>
     <string id="endMessage">Text when timer reaches 0</string>
     <string id="pauseSetting">Pause when activity is paused</string>
+    <string id="compactDisplay">Compact display</string>
 </strings>

@@ -10,6 +10,7 @@ class TimeLeftDataFieldView extends WatchUi.SimpleDataField {
     var startingTime = readKeyInt(Application.getApp(),"startingTimeSetting",DEFAULT_STARTING_TIME) * 1000; // start time on countdown timer
 	var timeUpMessage = Application.getApp().getProperty("endMessage");
 	var pauseWithTimer = Application.getApp().getProperty("pauseSetting");
+	var compactTime = Application.getApp().getProperty("compactDisplay");
 	
 	var timeLeft = 0;	 // time left in milliseconds
 	var hrs = 0;		 // hours left
@@ -48,7 +49,18 @@ class TimeLeftDataFieldView extends WatchUi.SimpleDataField {
 			mins = (timeLeft / (1000*60)) % 60;
 			hrs =  (timeLeft / (1000*60*60)) % 24; 
 
-			timeLeftString = Lang.format("$1$:$2$:$3$", [hrs.format("%02d"), mins.format("%02d"), secs.format("%02d")]);
+			if (compactTime == true) {
+			
+				if (hrs > 0) {
+					timeLeftString = Lang.format("$1$:$2$", [hrs.format("%02d"), mins.format("%02d")]);
+				} else {
+					timeLeftString = Lang.format("$1$:$2$", [mins.format("%02d"), secs.format("%02d")]);
+				}
+				
+			} else {
+		
+				timeLeftString = Lang.format("$1$:$2$:$3$", [hrs.format("%02d"), mins.format("%02d"), secs.format("%02d")]);
+			}
 
 		} else {
 			
