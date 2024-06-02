@@ -2,21 +2,22 @@
 // 1.0.0 - intial release
 
 using Toybox.WatchUi;
+using Toybox.Lang;
 
 
 class TimeLeftDataFieldView extends WatchUi.SimpleDataField {
 
  	const DEFAULT_STARTING_TIME = 3600; // seconds
-    var startingTime = readKeyInt(Application.getApp(),"startingTimeSetting",DEFAULT_STARTING_TIME) * 1000; // start time on countdown timer
-	var timeUpMessage = Application.getApp().getProperty("endMessage");
-	var pauseWithTimer = Application.getApp().getProperty("pauseSetting");
-	var compactTime = Application.getApp().getProperty("compactDisplay");
+    var startingTime as Lang.Number = Application.Properties.getValue("startingTimeSetting") * 1000; // start time on countdown timer
+	var timeUpMessage as Lang.String = Application.Properties.getValue("endMessage");
+	var pauseWithTimer = Application.Properties.getValue("pauseSetting");
+	var compactTime = Application.Properties.getValue("compactDisplay");
 	
-	var timeLeft = 0;	 // time left in milliseconds
-	var hrs = 0;		 // hours left
-	var mins = 0;		 // minutes left
-	var secs = 0;		 // seconds left
-	var timeLeftString = "00:00:00"; // string representing hrs:min:sec
+	var timeLeft as Lang.Number = 0;	 // time left in milliseconds
+	var hrs as Lang.Number = 0;		 // hours left
+	var mins as Lang.Number = 0;		 // minutes left
+	var secs as Lang.Number = 0;		 // seconds left
+	var timeLeftString as Lang.String = "00:00:00"; // string representing hrs:min:sec
 	
     function initialize() {
         SimpleDataField.initialize();
@@ -71,28 +72,5 @@ class TimeLeftDataFieldView extends WatchUi.SimpleDataField {
         return timeLeftString;
     }
 
-	function readKeyInt(myApp,key,thisDefault) {
-    	var value = myApp.getProperty(key);
-    	if(value == null || !(value instanceof Number)) {
-        	if(value != null) {
-            	value = value.toNumber();
-        	} else {
-            	value = thisDefault;
-        	}
-    	}
-    	return value;
-	}
-
-	function readKeyFloat(myApp,key,thisDefault) {
-    	var value = myApp.getProperty(key);
-    	if(value == null || !(value instanceof Float)) {
-        	if(value != null) {
-            	value = value.toFloat();
-        	} else {
-            	value = thisDefault;
-        	}
-    	}
-    	return value;
-	}
 
 }

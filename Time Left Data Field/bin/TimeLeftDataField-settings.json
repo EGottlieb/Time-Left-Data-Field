@@ -1,0 +1,82 @@
+{
+  "settings" : [ {
+    "key" : "startingTimeSetting",
+    "valueType" : "number",
+    "defaultValue" : 3600,
+    "configTitle" : "startingTimeSetting",
+    "configPrompt" : null,
+    "configType" : "numeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : true,
+    "configOptions" : null,
+    "configMin" : 1,
+    "configMax" : 9999999,
+    "configMaxLength" : null
+  }, {
+    "key" : "endMessage",
+    "valueType" : "string",
+    "defaultValue" : "Time's up!",
+    "configTitle" : "endMessage",
+    "configPrompt" : null,
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : true,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "pauseSetting",
+    "valueType" : "boolean",
+    "defaultValue" : true,
+    "configTitle" : "pauseSetting",
+    "configPrompt" : null,
+    "configType" : "boolean",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "compactDisplay",
+    "valueType" : "boolean",
+    "defaultValue" : true,
+    "configTitle" : "compactDisplay",
+    "configPrompt" : null,
+    "configType" : "boolean",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  } ],
+  "supportsLiveValidation" : false,
+  "languages" : {
+    "valyrian" : {
+      "endMessage" : "Text when timer reaches 0",
+      "pauseSetting" : "Pause when activity is paused",
+      "timeLeftLabel" : "Time Left",
+      "compactDisplay" : "Compact display",
+      "AppName" : "Time Left Data Field",
+      "startingTimeSetting" : "Starting Time (seconds)"
+    },
+    "eng" : {
+      "endMessage" : "Text when timer reaches 0",
+      "pauseSetting" : "Pause when activity is paused",
+      "timeLeftLabel" : "Time Left",
+      "compactDisplay" : "Compact display",
+      "AppName" : "Time Left Data Field",
+      "startingTimeSetting" : "Starting Time (seconds)"
+    }
+  }
+}

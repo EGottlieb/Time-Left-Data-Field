@@ -1,0 +1,271 @@
+[ @file = "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc"; @line = 4; ]
+using Toybox.WatchUi;
+[ @file = "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc"; @line = 5; ]
+using Toybox.Lang;
+[ @file = "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc"; @line = 8; ]
+class TimeLeftDataFieldView extends WatchUi.SimpleDataField{
+    [ @file = "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc"; @line = 8; ]
+    <init> {
+[ "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" 11 8 ]
+        %tmp.2 = getv ? :Application;
+        %tmp.3 = getv %tmp.2 :Properties;
+        %tmp.4 = getv function %tmp.3 :getValue;
+        %tmp.5 = "startingTimeSetting";
+        %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
+        %tmp.7 = 1000;
+        %tmp.8 = mul %tmp.6 %tmp.7;
+        putv self :startingTime %tmp.8;
+[ "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" 12 5 ]
+        %tmp.10 = getv ? :Application;
+        %tmp.11 = getv %tmp.10 :Properties;
+        %tmp.12 = getv function %tmp.11 :getValue;
+        %tmp.13 = "endMessage";
+        %tmp.14 = invoke %tmp.11 %tmp.12(%tmp.13);
+        putv self :timeUpMessage %tmp.14;
+[ "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" 13 5 ]
+        %tmp.16 = getv ? :Application;
+        %tmp.17 = getv %tmp.16 :Properties;
+        %tmp.18 = getv function %tmp.17 :getValue;
+        %tmp.19 = "pauseSetting";
+        %tmp.20 = invoke %tmp.17 %tmp.18(%tmp.19);
+        putv self :pauseWithTimer %tmp.20;
+[ "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" 14 5 ]
+        %tmp.22 = getv ? :Application;
+        %tmp.23 = getv %tmp.22 :Properties;
+        %tmp.24 = getv function %tmp.23 :getValue;
+        %tmp.25 = "compactDisplay";
+        %tmp.26 = invoke %tmp.23 %tmp.24(%tmp.25);
+        putv self :compactTime %tmp.26;
+    }
+    [ @file = "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc"; @line = 8; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc"; @line = 10; @position = 8; ]
+    const DEFAULT_STARTING_TIME = 3600;
+    [ @file = "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc"; @line = 11; @position = 8; ]
+    var startingTime as Lang.Number;
+    [ @file = "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc"; @line = 12; @position = 5; ]
+    var timeUpMessage as Lang.String;
+    [ @file = "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc"; @line = 13; @position = 5; ]
+    var pauseWithTimer;
+    [ @file = "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc"; @line = 14; @position = 5; ]
+    var compactTime;
+    [ @file = "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc"; @line = 16; @position = 5; ]
+    var timeLeft as Lang.Number = 0;
+    [ @file = "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc"; @line = 17; @position = 5; ]
+    var hrs as Lang.Number = 0;
+    [ @file = "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc"; @line = 18; @position = 5; ]
+    var mins as Lang.Number = 0;
+    [ @file = "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc"; @line = 19; @position = 5; ]
+    var secs as Lang.Number = 0;
+    [ @file = "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc"; @line = 20; @position = 5; ]
+    var timeLeftString as Lang.String = "00:00:00";
+    [ @file = "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc"; @line = 22; ]
+    function initialize() as Void {
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_22_26_26_4_start:
+[ "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" 23 8 ]
+        %tmp.2 = getv ? :SimpleDataField;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" 24 8 ]
+        %tmp.4 = getm $.Toybox.WatchUi;
+        %tmp.5 = getv function %tmp.4 :loadResource;
+        %tmp.7 = getv ? :Rez;
+        %tmp.8 = getv %tmp.7 :Strings;
+        %tmp.9 = getv %tmp.8 :timeLeftLabel;
+        %tmp.10 = invoke %tmp.4 %tmp.5(%tmp.9);
+        putv self :label %tmp.10;
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_22_26_26_4_stop:
+    }
+    [ @file = "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc"; @line = 33; ]
+    function compute(info) {
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_33_27_73_4_start:
+[ "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" 35 2 ]
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_35_2_45_2_if_stmt:
+        %tmp.1 = lgetv %info;
+        %tmp.2 = getv %tmp.1 :elapsedTime;
+        %tmp.3 = null;
+        %tmp.4 = ne %tmp.2 %tmp.3;
+        bf %tmp.4 @_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_35_2_45_2_if_false;
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_35_2_45_2_if_true:
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_35_32_42_2_start:
+[ "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" 36 3 ]
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_36_3_40_3_if_stmt:
+        %tmp.6 = getv ? :pauseWithTimer;
+        %tmp.7 = true;
+        %tmp.8 = eq %tmp.6 %tmp.7;
+        bf %tmp.8 @_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_36_3_40_3_if_false;
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_36_3_40_3_if_true:
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_36_31_38_3_start:
+[ "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" 37 4 ]
+        %tmp.10 = getv ? :startingTime;
+        %tmp.11 = lgetv %info;
+        %tmp.12 = getv %tmp.11 :timerTime;
+        %tmp.13 = sub %tmp.10 %tmp.12;
+        putv self :timeLeft %tmp.13;
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_36_31_38_3_stop:
+        goto @_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_36_3_40_3_if_end;
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_36_3_40_3_if_false:
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_38_10_40_3_start:
+[ "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" 39 4 ]
+        %tmp.15 = getv ? :startingTime;
+        %tmp.16 = lgetv %info;
+        %tmp.17 = getv %tmp.16 :elapsedTime;
+        %tmp.18 = sub %tmp.15 %tmp.17;
+        putv self :timeLeft %tmp.18;
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_38_10_40_3_stop:
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_36_3_40_3_if_end:
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_35_32_42_2_stop:
+        goto @_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_35_2_45_2_if_end;
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_35_2_45_2_if_false:
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_42_9_45_2_start:
+[ "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" 44 3 ]
+        %tmp.19 = 0;
+        putv self :timeLeft %tmp.19;
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_42_9_45_2_stop:
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_35_2_45_2_if_end:
+[ "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" 47 2 ]
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_47_2_70_2_if_stmt:
+        %tmp.21 = getv ? :timeLeft;
+        %tmp.22 = 0;
+        %tmp.23 = gt %tmp.21 %tmp.22;
+        bf %tmp.23 @_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_47_2_70_2_if_false;
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_47_2_70_2_if_true:
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_47_20_66_2_start:
+[ "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" 49 3 ]
+        %tmp.25 = getv ? :timeLeft;
+        %tmp.26 = 1000;
+        %tmp.27 = div %tmp.25 %tmp.26;
+        %tmp.28 = 60;
+        %tmp.29 = mod %tmp.27 %tmp.28;
+        putv self :secs %tmp.29;
+[ "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" 50 3 ]
+        %tmp.31 = getv ? :timeLeft;
+        %tmp.32 = 1000;
+        %tmp.33 = 60;
+        %tmp.34 = mul %tmp.32 %tmp.33;
+        %tmp.35 = div %tmp.31 %tmp.34;
+        %tmp.36 = 60;
+        %tmp.37 = mod %tmp.35 %tmp.36;
+        putv self :mins %tmp.37;
+[ "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" 51 3 ]
+        %tmp.39 = getv ? :timeLeft;
+        %tmp.40 = 1000;
+        %tmp.41 = 60;
+        %tmp.42 = mul %tmp.40 %tmp.41;
+        %tmp.43 = 60;
+        %tmp.44 = mul %tmp.42 %tmp.43;
+        %tmp.45 = div %tmp.39 %tmp.44;
+        %tmp.46 = 24;
+        %tmp.47 = mod %tmp.45 %tmp.46;
+        putv self :hrs %tmp.47;
+[ "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" 53 3 ]
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_53_3_64_3_if_stmt:
+        %tmp.49 = getv ? :compactTime;
+        %tmp.50 = true;
+        %tmp.51 = eq %tmp.49 %tmp.50;
+        bf %tmp.51 @_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_53_3_64_3_if_false;
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_53_3_64_3_if_true:
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_53_28_61_3_start:
+[ "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" 55 4 ]
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_55_4_59_4_if_stmt:
+        %tmp.53 = getv ? :hrs;
+        %tmp.54 = 0;
+        %tmp.55 = gt %tmp.53 %tmp.54;
+        bf %tmp.55 @_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_55_4_59_4_if_false;
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_55_4_59_4_if_true:
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_55_17_57_4_start:
+[ "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" 56 5 ]
+        %tmp.56 = getm $.Toybox.Lang;
+        %tmp.57 = getv function %tmp.56 :format;
+        %tmp.58 = "$1$:$2$";
+        %tmp.59 = newa 2;
+        %tmp.61 = getv ? :hrs;
+        %tmp.62 = getv function %tmp.61 :format;
+        %tmp.63 = "%02d";
+        %tmp.64 = invoke %tmp.61 %tmp.62(%tmp.63);
+        %tmp.65 = dup %tmp.59;
+        %tmp.66 = aputv %tmp.65 0 %tmp.64;
+        %tmp.68 = getv ? :mins;
+        %tmp.69 = getv function %tmp.68 :format;
+        %tmp.70 = "%02d";
+        %tmp.71 = invoke %tmp.68 %tmp.69(%tmp.70);
+        %tmp.72 = dup %tmp.66;
+        %tmp.73 = aputv %tmp.72 1 %tmp.71;
+        %tmp.74 = invoke %tmp.56 %tmp.57(%tmp.58, %tmp.73);
+        putv self :timeLeftString %tmp.74;
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_55_17_57_4_stop:
+        goto @_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_55_4_59_4_if_end;
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_55_4_59_4_if_false:
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_57_11_59_4_start:
+[ "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" 58 5 ]
+        %tmp.75 = getm $.Toybox.Lang;
+        %tmp.76 = getv function %tmp.75 :format;
+        %tmp.77 = "$1$:$2$";
+        %tmp.78 = newa 2;
+        %tmp.80 = getv ? :mins;
+        %tmp.81 = getv function %tmp.80 :format;
+        %tmp.82 = "%02d";
+        %tmp.83 = invoke %tmp.80 %tmp.81(%tmp.82);
+        %tmp.84 = dup %tmp.78;
+        %tmp.85 = aputv %tmp.84 0 %tmp.83;
+        %tmp.87 = getv ? :secs;
+        %tmp.88 = getv function %tmp.87 :format;
+        %tmp.89 = "%02d";
+        %tmp.90 = invoke %tmp.87 %tmp.88(%tmp.89);
+        %tmp.91 = dup %tmp.85;
+        %tmp.92 = aputv %tmp.91 1 %tmp.90;
+        %tmp.93 = invoke %tmp.75 %tmp.76(%tmp.77, %tmp.92);
+        putv self :timeLeftString %tmp.93;
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_57_11_59_4_stop:
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_55_4_59_4_if_end:
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_53_28_61_3_stop:
+        goto @_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_53_3_64_3_if_end;
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_53_3_64_3_if_false:
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_61_10_64_3_start:
+[ "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" 63 4 ]
+        %tmp.94 = getm $.Toybox.Lang;
+        %tmp.95 = getv function %tmp.94 :format;
+        %tmp.96 = "$1$:$2$:$3$";
+        %tmp.97 = newa 3;
+        %tmp.99 = getv ? :hrs;
+        %tmp.100 = getv function %tmp.99 :format;
+        %tmp.101 = "%02d";
+        %tmp.102 = invoke %tmp.99 %tmp.100(%tmp.101);
+        %tmp.103 = dup %tmp.97;
+        %tmp.104 = aputv %tmp.103 0 %tmp.102;
+        %tmp.106 = getv ? :mins;
+        %tmp.107 = getv function %tmp.106 :format;
+        %tmp.108 = "%02d";
+        %tmp.109 = invoke %tmp.106 %tmp.107(%tmp.108);
+        %tmp.110 = dup %tmp.104;
+        %tmp.111 = aputv %tmp.110 1 %tmp.109;
+        %tmp.113 = getv ? :secs;
+        %tmp.114 = getv function %tmp.113 :format;
+        %tmp.115 = "%02d";
+        %tmp.116 = invoke %tmp.113 %tmp.114(%tmp.115);
+        %tmp.117 = dup %tmp.111;
+        %tmp.118 = aputv %tmp.117 2 %tmp.116;
+        %tmp.119 = invoke %tmp.94 %tmp.95(%tmp.96, %tmp.118);
+        putv self :timeLeftString %tmp.119;
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_61_10_64_3_stop:
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_53_3_64_3_if_end:
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_47_20_66_2_stop:
+        goto @_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_47_2_70_2_if_end;
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_47_2_70_2_if_false:
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_66_9_70_2_start:
+[ "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" 68 3 ]
+        %tmp.121 = getv ? :timeUpMessage;
+        putv self :timeLeftString %tmp.121;
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_66_9_70_2_stop:
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_47_2_70_2_if_end:
+[ "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" 72 8 ]
+        %tmp.123 = getv ? :timeLeftString;
+        ret %tmp.123;
+_Users_eric_Library_CloudStorage_OneDrive_Personal_Development_Garmin_Time_Left_Data_Field_Time_Left_Data_Field_source_TimeLeftDataFieldView_mc_33_27_73_4_stop:
+    }
+}
+[ @file = "/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc"; @line = 4; ]
+<init> {
+}

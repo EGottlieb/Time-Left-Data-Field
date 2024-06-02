@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/manifest.xml"/>
+<pcToLineNum>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" id="1" lineNum="8" parent="globals/TimeLeftDataFieldView" pc="268435460" symbol="&lt;init&gt;"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" id="1" lineNum="11" parent="globals/TimeLeftDataFieldView" pc="268435471" symbol="&lt;init&gt;"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" id="1" lineNum="12" parent="globals/TimeLeftDataFieldView" pc="268435505" symbol="&lt;init&gt;"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" id="1" lineNum="13" parent="globals/TimeLeftDataFieldView" pc="268435535" symbol="&lt;init&gt;"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" id="1" lineNum="14" parent="globals/TimeLeftDataFieldView" pc="268435565" symbol="&lt;init&gt;"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldApp.mc" id="2" lineNum="3" parent="globals/TimeLeftDataFieldApp" pc="268435596" symbol="&lt;init&gt;"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/bin/gen/006-B4313-00/source/Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435608" symbol="&lt;init&gt;"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" id="4" lineNum="33" parent="globals/TimeLeftDataFieldView" pc="268435628" symbol="compute"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" id="4" lineNum="35" parent="globals/TimeLeftDataFieldView" pc="268435630" symbol="compute"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" id="4" lineNum="36" parent="globals/TimeLeftDataFieldView" pc="268435640" symbol="compute"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" id="4" lineNum="37" parent="globals/TimeLeftDataFieldView" pc="268435650" symbol="compute"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" id="4" lineNum="39" parent="globals/TimeLeftDataFieldView" pc="268435672" symbol="compute"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" id="4" lineNum="44" parent="globals/TimeLeftDataFieldView" pc="268435694" symbol="compute"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" id="4" lineNum="47" parent="globals/TimeLeftDataFieldView" pc="268435702" symbol="compute"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" id="4" lineNum="49" parent="globals/TimeLeftDataFieldView" pc="268435712" symbol="compute"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" id="4" lineNum="50" parent="globals/TimeLeftDataFieldView" pc="268435731" symbol="compute"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" id="4" lineNum="51" parent="globals/TimeLeftDataFieldView" pc="268435751" symbol="compute"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" id="4" lineNum="53" parent="globals/TimeLeftDataFieldView" pc="268435771" symbol="compute"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" id="4" lineNum="55" parent="globals/TimeLeftDataFieldView" pc="268435781" symbol="compute"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" id="4" lineNum="56" parent="globals/TimeLeftDataFieldView" pc="268435791" symbol="compute"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" id="4" lineNum="58" parent="globals/TimeLeftDataFieldView" pc="268435864" symbol="compute"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" id="4" lineNum="63" parent="globals/TimeLeftDataFieldView" pc="268435937" symbol="compute"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" id="4" lineNum="68" parent="globals/TimeLeftDataFieldView" pc="268436031" symbol="compute"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" id="4" lineNum="72" parent="globals/TimeLeftDataFieldView" pc="268436043" symbol="compute"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" id="5" lineNum="22" parent="globals/TimeLeftDataFieldView" pc="268436049" symbol="initialize"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" id="5" lineNum="23" parent="globals/TimeLeftDataFieldView" pc="268436051" symbol="initialize"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldView.mc" id="5" lineNum="24" parent="globals/TimeLeftDataFieldView" pc="268436063" symbol="initialize"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldApp.mc" id="6" lineNum="10" parent="globals/TimeLeftDataFieldApp" pc="268436102" symbol="onStart"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldApp.mc" id="7" lineNum="18" parent="globals/TimeLeftDataFieldApp" pc="268436105" symbol="getInitialView"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldApp.mc" id="7" lineNum="19" parent="globals/TimeLeftDataFieldApp" pc="268436107" symbol="getInitialView"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldApp.mc" id="8" lineNum="5" parent="globals/TimeLeftDataFieldApp" pc="268436137" symbol="initialize"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldApp.mc" id="8" lineNum="6" parent="globals/TimeLeftDataFieldApp" pc="268436139" symbol="initialize"/>
+<entry filename="/Users/eric/Library/CloudStorage/OneDrive-Personal/Development/Garmin/Time-Left-Data-Field/Time Left Data Field/source/TimeLeftDataFieldApp.mc" id="9" lineNum="14" parent="globals/TimeLeftDataFieldApp" pc="268436152" symbol="onStop"/>
+</pcToLineNum>
+<symbolTable>
+<entry field="true" id="18" symbol="compactDisplay"/>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry field="true" id="13" symbol="timeLeft"/>
+<entry field="true" id="8" symbol="hrs"/>
+<entry field="true" id="22" symbol="timeLeftLabel"/>
+<entry field="true" id="12" symbol="startingTime"/>
+<entry field="true" id="10" symbol="pauseWithTimer"/>
+<entry field="true" id="20" symbol="pauseSetting"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="17" symbol="AppName"/>
+<entry id="4" module="true" symbol="globals/Rez/Strings"/>
+<entry id="5" object="true" symbol="TimeLeftDataFieldApp"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry field="true" id="9" symbol="mins"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="6" object="true" symbol="TimeLeftDataFieldView"/>
+<entry id="8389137" method="true" symbol="compute"/>
+<entry field="true" id="21" symbol="startingTimeSetting"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry field="true" id="15" symbol="timeUpMessage"/>
+<entry field="true" id="7" symbol="compactTime"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry field="true" id="16" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="14" symbol="timeLeftString"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="19" symbol="endMessage"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry field="true" id="11" symbol="secs"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268436048" name="info" stackId="1" startPc="268435628"/>
+</localVars>
+<deviceInfo deviceVersion="fcbb2d71ec35a1d3f34d13093a6835d1c69522b8" partNumber="006-B4313-00"/>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="endMessage"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="pauseSetting"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="compactDisplay"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="timeLeftLabel"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="startingTimeSetting"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="49" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/TimeLeftDataFieldView" offset="107" parentId="globals" symbolId="TimeLeftDataFieldView" type="class"/>
+<dataEntry label="globals/TimeLeftDataFieldApp" offset="241" parentId="globals" symbolId="TimeLeftDataFieldApp" type="class"/>
+<dataEntry label="globals/Rez" offset="312" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/Rez/Drawables" offset="356" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="391" parentId="Rez" symbolId="Strings" type="module"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435595" name="&lt;init&gt;" parent="TimeLeftDataFieldView" startPc="268435460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435607" name="&lt;init&gt;" parent="TimeLeftDataFieldApp" startPc="268435596">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435627" name="&lt;init&gt;" parent="Rez" startPc="268435608">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436048" name="compute" parent="TimeLeftDataFieldView" startPc="268435628">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436101" name="initialize" parent="TimeLeftDataFieldView" startPc="268436049">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436104" name="onStart" parent="TimeLeftDataFieldApp" startPc="268436102">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436136" name="getInitialView" parent="TimeLeftDataFieldApp" startPc="268436105">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436151" name="initialize" parent="TimeLeftDataFieldApp" startPc="268436137">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436154" name="onStop" parent="TimeLeftDataFieldApp" startPc="268436152">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>
